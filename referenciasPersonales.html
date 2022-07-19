@@ -1,0 +1,57 @@
+<head>
+    <title>Referencias Personales</title>
+</head>
+<link rel="stylesheet" href="/HojaDeVida/style.css" type="text/css" />
+
+<body class="referPer">
+    <div class="caja7">
+        <h1>Referencias Personales</h1>
+    </div>
+    <div class="caja8">
+        <ol>
+            <button class="accordion3">Oscar Palacios</button>
+            <div class="panel3">
+                <p>
+
+                    Socio Ikitech <br />
+                    Cel: 311 639 4548
+
+                </p>
+            </div>
+            <button class="accordion3">Sara Brand Hoyos</button>
+            <div class="panel3">
+                <p>
+
+                    Compañera <br />
+                    Cel: 322 562 0741
+
+                </p>
+            </div>
+            <button class="accordion3">Luisa Fernanda Yate</button>
+            <div class="panel3">
+                <p>
+
+                    Conocida <br />
+                    Cel: 310 581 0247
+
+                </p>
+            </div>
+        </ol>
+    </div>
+    <script>
+        var acc = document.getElementsByClassName("accordion3");
+
+        for (i = 0; i < acc.length; i++) {
+            acc[i].addEventListener("click", function () {
+                this.classList.toggle("active");
+
+                var panel = this.nextElementSibling;
+                if (panel.style.display === "block") {
+                    panel.style.display = "none";
+                } else {
+                    panel.style.display = "block";
+                }
+            });
+        }
+    </script>
+</body>

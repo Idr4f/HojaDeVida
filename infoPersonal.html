@@ -1,0 +1,42 @@
+<head>
+    <link rel="stylesheet" href="/HojaDeVida/style.css" type="text/css" />
+    <title>info personal</title>
+</head>
+
+<body class="infop">
+    <div class="caja3">
+        <h1 class="titulo">Informacion Personal</h1>
+    </div>
+
+    <div class="caja4">
+        <button class="accordion1">Section 1</button>
+        <div class="panel1">
+            <ul type="circle" class="lista">
+
+                <li class="il">Nombre/s: Andres Felipe</li>
+                <li class="il">Apellidos: Calderon Sarmiento</li>
+                <li class="il">Celular: 3185134121</li>
+                <li class="il">Correo: felipesarmiento3004@gmail.com</li>
+                <li class="il">Fecha nacimiento: 30/Noviembre/2004</li>
+                <li class="il">Edad: 17 años</li>
+            </ul>
+        </div>
+    </div>
+    <script>
+        var acc = document.getElementsByClassName("accordion1");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
+}
+    </script>
+</body>

@@ -1,0 +1,264 @@
+ .button{ 
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    padding: 6px;
+    background-color:rgb(162, 214, 172);
+  }
+  .titulo{
+    font-size: 20px;
+    color: black;
+    
+  }
+  .il{
+    text-align: center;
+   -type: circle;
+    list-style-position: inside;
+    color: black;
+    text-decoration: none;
+    margin: 5px;
+    text-align: center;
+    position:relative;
+    top:8px;
+  }
+
+  /* Seccion de la hoja de vida principal */
+  .drop{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    background-color:rgb(162, 214, 172);
+    box-shadow: 3px 8px 13px rgb(10, 168, 126);
+    border: 2px solid rgb(95, 170, 150);
+  }
+  .titulo{
+    font-size: 40px;
+    text-align: center
+  }
+  .button:hover{
+    background-color: rgb(240, 152, 214);
+  }
+  .mihojadevida{
+    font-size: 50px;
+  }
+  .hojaDVida{
+    background-color:rgb(68, 156, 84);
+    color:black;
+    text-align:center;
+  }
+  .caja1{
+    background-color:rgb(162, 214, 172);
+    height: 100px;
+    width:510px;
+    position: relative;
+    border:5px solid;
+    left: 650px;
+    margin: 15px;
+    top: 7px;
+    border-top: 5px solid;
+    border-color: rgb(95, 170, 150);
+    box-shadow: 1px 7px 16px turquoise;
+  }
+  .caja2{
+    margin-top: 20px;
+    background-color:rgb(162, 214, 172);
+    width: 500px;
+    border: 5px solid;
+    position: relative;
+    left: 650px;
+    text-align: center;
+    margin: 20px;
+    border-color: rgb(95, 170, 150);
+    box-shadow: 5px 10px 24px turquoise;
+  }
+  /*Seccion de informacion personal*/
+  .infop{
+    background-color:		rgb(181, 91, 146);
+    text-align: center;
+  }
+  .caja3{
+    background-color: rgb(199, 172, 196);
+    height: 100px;
+    width:510px;
+    position: relative;
+    border:5px solid;
+    left: 650px;
+    margin: 15px;
+    top: 7px;
+    border-top: 5px solid;
+    border-color: rgb(217, 141, 204);
+    box-shadow: 3px 8px 13px rgb(10, 168, 126);
+  }
+  .caja4{
+    background-color: rgb(199, 172, 196);
+    margin-top: 20px;
+    width: 500px;
+    border: 5px solid;
+    position: relative;
+    left: 650px;
+    text-align: center;
+    margin: 20px;
+    border-color: rgb(217, 141, 204);
+    box-shadow: 3px 8px 13px rgb(10, 168, 126);
+  }
+  .button2{ 
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    padding: 6px;
+    background-color:rgb(240, 152, 214);
+  }
+  .button2:hover{
+    background-color: rgb(46, 156, 220);
+  }
+  /* Seccion de experiencia laboral*/
+  .button3{ 
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    padding: 6px;
+    background-color:rgb(4, 179, 164);
+  }
+  .button3:hover{
+    background-color: rgb(46, 156, 220);
+  }
+  .expLabo{
+    background-color:rgb(15, 117, 137);
+    text-align: center;
+  }
+  .caja5{
+    background-color: rgb(174, 188, 220);
+    height: 100px;
+    width:510px;
+    position: relative;
+    border:5px solid;
+    left: 650px;
+    margin: 15px;
+    top: 7px;
+    border-top: 5px solid;
+    border-color: rgb(18, 140, 165);
+    box-shadow: 3px 8px 13px rgb(10, 168, 126);
+  }
+  .caja6{
+    background-color: rgb(174, 188, 220);
+    margin-top: 20px;
+    width: 500px;
+    border: 5px solid;
+    position: relative;
+    left: 650px;
+    text-align: center;
+    margin: 20px;
+    border-color: rgb(18, 140, 165);
+    box-shadow: 3px 8px 13px rgb(10, 168, 126);
+  }
+  /* Seccion de referencias personales*/
+  .referPer{
+    background-color:rgb(148, 99, 4);
+    text-align: center;
+    text-decoration: none;
+  }
+  .caja7{
+    background-color: rgb(146, 48, 16);
+    height: 100px;
+    width:510px;
+    position: relative;
+    border:5px solid;
+    left: 650px;
+    margin: 15px;
+    top: 7px;
+    border-top: 5px solid;
+    border-color: rgb(137, 45, 15);
+    box-shadow: 3px 8px 13px rgb(10, 168, 126);
+  }
+  .caja8{
+    background-color: rgb(146, 48, 16);
+    margin-top: 20px;
+    width: 500px;
+    border: 5px solid;
+    position: relative;
+    left: 650px;
+    text-align: center;
+    margin: 20px;
+    border-color: rgb(137, 45, 15);
+    box-shadow: 3px 8px 13px rgb(10, 168, 126);
+  }
+  /*acordeon infopersonal*/
+  .accordion1{
+    background-color: rgb(199, 172, 196);
+    color: black;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    text-align: center;
+  }
+  .panel1{
+    padding: 0 18px;
+    background-color: rgb(199, 172, 196);
+    display: none;
+    overflow: hidden;
+    text-align: center;
+  }
+  /* acordeon refefami*/
+  .accordion2{
+    background-color: rgb(174, 188, 220);
+    color: black;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    text-align: center;
+  }
+  .panel2{
+    padding: 0 18px;
+    background-color: rgb(174, 188, 220);
+    display: none;
+    overflow: hidden;
+    text-align: center;
+  }
+    /* acordeon refeperso*/
+    .accordion3{
+      background-color: rgb(146, 48, 16);
+      color: black;
+      cursor: pointer;
+      padding: 18px;
+      width: 100%;
+      border: none;
+      outline: none;
+      transition: 0.4s;
+      text-align: center;
+    }
+    .panel3{
+      padding: 0 18px;
+      background-color: rgb(146, 48, 16);
+      display: none;
+      overflow: hidden;
+      text-align: center;
+    }
+    /*Acordeon de estudios*/
+    .accordion4{
+      background-color: rgb(162, 214, 172);
+      color: black;
+      cursor: pointer;
+      padding: 18px;
+      width: 100%;
+      border: none;
+      outline: none;
+      transition: 0.4s;
+      text-align: center;
+    }
+    .panel4{
+      padding: 0 18px;
+      background-color: rgb(162, 214, 172);
+      display: none;
+      overflow: hidden;
+      text-align: center;
+    }

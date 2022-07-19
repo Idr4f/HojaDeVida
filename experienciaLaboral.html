@@ -1,0 +1,38 @@
+<head>
+    <title>
+        Experincia Laboral
+    </title>
+</head>
+<link rel="stylesheet" href="/HojaDeVida/style.css" type="text/css" />
+
+<body class="expLabo">
+    <div class="caja5">
+        <h1>Experiencia laboral</h1>
+    </div>
+    <div class="caja6">
+        <ol>
+            <button class="accordion2">  Mi experiencia </button>
+            <div class="panel2">
+                <p>
+                    Ikitech
+                </p>
+            </div>
+        </ol>
+    </div>
+    <script>
+        var acc = document.getElementsByClassName("accordion2");
+
+        for (i = 0; i < acc.length; i++) {
+            acc[i].addEventListener("click", function () {
+                this.classList.toggle("active");
+
+                var panel = this.nextElementSibling;
+                if (panel.style.display === "block") {
+                    panel.style.display = "none";
+                } else {
+                    panel.style.display = "block";
+                }
+            });
+        }
+    </script>
+</body>

@@ -1,0 +1,71 @@
+<head>
+    <title>hojaDeVida</title>
+
+    <select class="drop" name="colors" onchange="changeColor(this)">
+        <option value="rgb(68, 156, 84)">Verde pantano</option>
+        <option value="rgb(96, 32, 255)">Morao</option>
+    </select>
+    <script>
+        function changeColor(event) {
+            let color = event.value;
+            document.getElementsByTagName('BODY')[0].style.backgroundColor = color;
+            if (event.value == "rgb(68, 156, 84)") {
+                document.getElementsByClassName('caja1')[0].style.backgroundColor = "rgb(162, 214, 172)";
+                document.getElementsByClassName('caja2')[0].style.backgroundColor = "rgb(162, 214, 172)";
+                document.getElementsByClassName('drop')[0].style.backgroundColor = "rgb(162, 214, 172)";
+            }
+            if(event.value == "rgb(96, 32, 255)"){
+                document.getElementsByClassName('caja1')[0].style.backgroundColor = "rgb(128, 77, 255)";
+                document.getElementsByClassName('caja2')[0].style.backgroundColor = "rgb(128, 77, 255)";
+                document.getElementsByClassName('drop')[0].style.backgroundColor = "rgb(128, 77, 255)";
+            }
+        }
+    </script>
+
+</head>
+
+<link rel="stylesheet" href="/HojaDeVida/style.css" type="text/css" />
+
+<body class="hojaDVida">
+    <div class="caja1" value="rgb(162, 214, 172)">
+        <h1 class="mihojadevida">Mi Hoja De Vida</h1>
+    </div>
+    <div class="caja2">
+        <ul type="circle" class="lista">
+            <li class="il">
+                <button class="button">
+                    <a rel="stylesheet" href="/HojaDeVida/infoPersonal.html" class="infoPersonal">
+                        Informacion personal</a>
+                </button>
+            </li>
+
+            <li class="il">
+                <button class="button">
+                    <a rel="stylesheet" href="/HojaDeVida/experienciaLaboral.html" class="experienciaLabora">
+                        Experiencia Labora</a>
+                </button>
+            </li>
+
+            <li class="il">
+                <button class="button">
+                    <a rel="stylesheet" href="/HojaDeVida/referenciasPersonales.html" class="referenciasPersonales">
+                        Referencias Personales</a>
+                </button>
+            </li>
+
+            <li class="il">
+                <button class="button">
+                    <a rel="stylesheet" href="/HojaDeVida/referenciasFamiliares.html" class="referenciasFamiliares">
+                        ReferenciasFamiliares</a>
+                </button>
+            </li>
+
+            <li class="il">
+                <button class="button">
+                    <a rel="stylesheet" href="/HojaDeVida/estudiosRealizados.html" class="estudiosRealizados">
+                        Estudios Realizados</a>
+                </button>
+            </li>
+        </ul>
+    </div>
+</body>

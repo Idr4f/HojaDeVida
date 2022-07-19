@@ -1,0 +1,57 @@
+<head>
+    <title>Referencias Familiares</title>
+</head>
+<link rel="stylesheet" href="/HojaDeVida/style.css" type="text/css" />
+
+<body class="expLabo">
+    <div class="caja5">
+        <h1>Referencias Familiares</h1>
+    </div>
+    <div class="caja6">
+        <ol>
+            <li>
+                <button class="accordion2"> <h3>Diana Carolina Sarmiento Pelaez</h3></button>
+                <div class="panel2">
+                    <p>
+                        Madre<br>
+                        Cel:316 348 7672
+                    </p>
+                </div>
+            </li>
+            <li>
+                <button class="accordion2"> <h3>Fabio Alejandro Sarmiento Pelaez</h3></button>
+                <div class="panel2">
+                    <p>
+                        Tio<br>
+                        Cel:301 753 9344
+                    </p>
+                </div>
+            </li>
+            <li>
+                <button class="accordion2"> <h3>Fabio Arturo Sarmiento Aguilera</h3></button>
+                <div class="panel2">
+                    <p>
+                        Abuelo<br>
+                        Cel:305 242 0396
+                    </p>
+                </div>
+            </li>
+        </ol>
+    </div>
+   <script>
+    var acc = document.getElementsByClassName("accordion2");
+
+    for (i = 0; i < acc.length; i++) {
+        acc[i].addEventListener("click", function () {
+            this.classList.toggle("active");
+
+            var panel = this.nextElementSibling;
+            if (panel.style.display === "block") {
+                panel.style.display = "none";
+            } else {
+                panel.style.display = "block";
+            }
+        });
+    }
+   </script>
+</body>

@@ -1,0 +1,38 @@
+<head>
+    <title>
+        Estudios Realizados
+    </title>
+</head>
+<link rel="stylesheet" href="/HojaDeVida/style.css" type="text/css" />
+
+<body class="hojaDVida">
+    <div class="caja1">
+        <h1>Estudios Realizados</h1>
+    </div>
+    <div class="caja2">
+        <ul type="circle">
+            <button class="accordion4">Mis estudios</button>
+            <div class="panel4">
+                <p>
+                    Basica Primaria
+                </p>
+            </div>
+        </ul>
+    </div>
+    <script>
+        var acc = document.getElementsByClassName("accordion4");
+
+        for (i = 0; i < acc.length; i++) {
+            acc[i].addEventListener("click", function () {
+                this.classList.toggle("active");
+
+                var panel = this.nextElementSibling;
+                if (panel.style.display === "block") {
+                    panel.style.display = "none";
+                } else {
+                    panel.style.display = "block";
+                }
+            });
+        }
+    </script>
+</body>
